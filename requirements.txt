@@ -1,3 +1,2 @@
 spacy
-spacy-streamlit
 https://huggingface.co/d4data/en_pipeline/resolve/main/en_pipeline-any-py3-none-any.whl
