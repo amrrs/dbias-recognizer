@@ -4,8 +4,9 @@ from spacy_streamlit import visualize_parser
 
 st.title("News Bias Words Recognizer")
 
-with st.spinner():
-    nlp = spacy.load("en_pipeline")
+# Importing as module.
+import en_pipeline
+nlp = en_pipeline.load()
 
 input = st.text_area(label = "Enter your text to get biased words")
 
